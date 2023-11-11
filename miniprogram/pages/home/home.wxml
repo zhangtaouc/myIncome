@@ -1,0 +1,7 @@
+<view class="home">
+	<view class="total-income">
+		<view class="flex tabs">
+			<view class="tab" wx:for="{{tabsList}}">{{item.name}}</view>
+		</view>
+	</view>
+</view>
